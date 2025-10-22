@@ -1,0 +1,42 @@
+.featured{
+  text-align: center;
+  font-size: 30px;
+}
+.featured_card{
+  display: flex;
+}
+.featured_card img{
+  width: 80%;
+}
+.About_Us{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  margin: 10px;
+}
+.about_head{
+  font-size: 30px;
+  color: #213721;
+}
+.about_para{
+  color: #899F87;
+}
+.company{
+  padding: 10px;
+  margin: 15px;
+}
+.company_img{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;}
+.company_img img{
+  width: 100%;
+  text-align: center;
+}
+.cta{
+  background-color: #899F87;
+  color: #F2F6EF;
+  padding: 20px;
+}

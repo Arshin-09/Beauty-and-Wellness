@@ -1,0 +1,27 @@
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  text-align: center;
+}
+.part_1 img{
+  margin: auto;
+  display: block;
+  margin-top: 25px;
+}
+.icons{
+  color: #213721;
+  margin: 5px;
+}
+@media only screen and (max-width:600px){
+  .footer{
+  display: grid;
+  grid-template-columns: 1fr ;
+  text-align: center;
+}
+.part_1 img{
+  margin-bottom: 20px;
+}
+}
+h2{
+  text-align: center;
+}

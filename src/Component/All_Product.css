@@ -1,0 +1,86 @@
+.Products{
+  width: 100%;
+  min-width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+button{
+  border: 1px solid #899F87;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #F2F6EF;
+  color:#93aa88 ;
+}
+button:hover{
+  background-color: #899F87;
+  color: #F2F6EF;
+}
+.about_pro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  min-width: 100%;
+}
+.about_card{
+  border: 1px solid #C8D8C0;
+  margin: 5px;
+  text-align: center;
+}
+.about_card img{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.about_products{
+  width: 100%;
+  height: auto;
+}
+h3,h4{
+  font-size: 1.5rem;
+}
+@media only screen and (max-width:768px){
+  .about_pro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+button{
+  display: none;
+}
+  .Products{
+  width: 100%;
+  min-width: 100%;
+display: grid;
+grid-template-columns: 1fr;
+}
+}
+@media only screen and (max-width:500px){
+  .about_pro{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.about_card img{
+  margin: auto;
+  display: block;
+}
+.about_card{
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+.about_pro{
+  font-size: 1.5rem;
+}
+h3,h4{
+  font-size: 1rem;
+}
+.about_products p{
+  font-size: 1.5rem;
+}
+}
+.btnn{
+padding: 30px;
+}
+button{
+  padding: 10px 20px; 
+}

@@ -1,0 +1,29 @@
+body{
+  background-color: #F2F6EF;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container_para{
+  background-color: #E4ECE0;
+  color: #213721;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.container h2{
+  line-height: 30px;
+}
+.container_img img{
+  width: 100%;
+  min-width: 100%;
+}
+@media only screen and (max-width:768px){
+  .container{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+}

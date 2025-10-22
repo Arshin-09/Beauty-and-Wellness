@@ -1,0 +1,44 @@
+.our_service{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #C8D8C0;
+  margin-top: 30px ;
+  padding: 30px;
+}
+p{
+  color: #899F87;
+}
+.service_text h1{
+  color:#213721;
+  font-weight: 100;
+  font-size: 45px;
+}
+.service_img{
+  margin: auto;
+  display: block;
+}
+.service_img img{
+  width: 100%;
+}
+.service_text{
+  margin: auto;
+  display: block;
+  font-size: 2rem;
+}
+@media only screen and (max-width:768px) {
+  .our_service{
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+  .service_text h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width:600px){
+  .service_img img {
+    width: 75%;
+    margin: auto;
+    display: block;
+  }
+}
