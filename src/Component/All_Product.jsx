@@ -35,7 +35,7 @@ const stars = Array(5).fill(0);
     </div>
     <div className='about_pro'>
       <div className='about_card'>
-        <img src="../images/Row01.png" alt="" />
+        <img src="./images/Row01.png" alt="" />
         <h3>CLASSWING</h3>
         <h4>$20</h4>
         <h4>{stars.map((index)=>(
@@ -43,7 +43,7 @@ const stars = Array(5).fill(0);
         ))}5.0</h4>
       </div>
       <div className='about_card'>
-        <img src="../images/Row2.png" alt="" />
+        <img src="./images/Row2.png" alt="" />
         <h3>HOLOCANE</h3>
         <h4>$20</h4>
         <h4>{stars.map((index)=>(
@@ -51,7 +51,7 @@ const stars = Array(5).fill(0);
         ))}5.0</h4>
       </div>
       <div className='about_card'>
-        <img src="../images/row1.png" alt="" />
+        <img src="./images/row1.png" alt="" />
         <h3>INAMORATA</h3>
         <h4>$20</h4>
         <h4>{stars.map((index)=>(
@@ -59,7 +59,7 @@ const stars = Array(5).fill(0);
         ))}5.0</h4>
       </div>
       <div className='about_card'>
-        <img src="../images/row02.png" alt="" />
+        <img src="./images/row02.png" alt="" />
         <h3>LIGHTCOOL</h3>
         <h4>$20</h4>
         <h4>{stars.map((index)=>(
