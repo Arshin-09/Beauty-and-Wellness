@@ -7,7 +7,7 @@ const Hero= () =>{
     <h2>Let nature take<br></br>care of your body <br></br> and soul</h2>
   </div>
   <div className="hero_img">
-    <img src="/images/Hero_Image.png" alt="" />
+    <img src="./images/Hero_Image.png" alt="" />
   </div>
       </div>
   <button className="btn">Shop Now <GoArrowRight /></button>
